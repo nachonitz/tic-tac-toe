@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Figtree";
+  src: local("Figtree-Regular"), local("FigtreeRegular"),
+    url("/assets/fonts/Figtree/static/Figtree-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: local("Figtree-Bold"), local("FigtreeBold"),
+    url("/assets/fonts/Figtree/static/Figtree-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+}

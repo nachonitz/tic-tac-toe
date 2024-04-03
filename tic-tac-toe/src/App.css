@@ -1,0 +1,32 @@
+#root {
+  background-color: #282c34;
+}
+
+.writing {
+  animation: typing 1s linear;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.spark-animation {
+  animation: spark 1.5s alternate infinite;
+}
+
+@keyframes spark {
+  from {
+    box-shadow: 0 0 5px yellow, 0 0 10px yellow, 0 0 15px yellow,
+      0 0 20px yellow, 0 0 25px yellow;
+  }
+  to {
+    box-shadow: none;
+  }
+}
