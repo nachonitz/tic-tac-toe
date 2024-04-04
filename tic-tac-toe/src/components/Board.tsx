@@ -83,7 +83,7 @@ const Board = ({ setWinner, winner, setDraw, draw }: Props) => {
       return 0;
     }
 
-    const [a, b, c] = winningLine;
+    const [a, , c] = winningLine;
     if (a === 0 && c === 2) {
       return 0; // Horizontal line
     } else if (a === 3 && c === 5) {

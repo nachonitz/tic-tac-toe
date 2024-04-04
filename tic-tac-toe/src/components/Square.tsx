@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Values } from "../models/Values";
 import { RxCircle, RxCross1 } from "react-icons/rx";
 
